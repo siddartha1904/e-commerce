@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-image: radial-gradient(circle at 10% 20%, rgb(87, 152, 235) 0%, rgb(133, 222, 213) 67%);
+  padding: 0 10px;
+  background-size: 100% 135%;
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 10px 10px; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  
+}
+header{
+  flex: 0 0 100%;
+  text-align: center;
+}
+.wrapper{
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: auto;
+  margin-top: 3%;
+  box-shadow: 10px 10px 20px black;
+  padding: 30px;
+  border-radius: 10px;
+  
+}
+
+.wrapper .title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #002116;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapper .index{
+  width: 100%;
+}
+
+.wrapper .index .input_field{
+  margin-bottom: 15px;
+  display: grid;
+  align-items: center;
+}
+
+
+
+
+
+.wrapper .index .input_field .btn{
+    width: 100%;
+     padding: 8px 10px;
+    font-size: 15px; 
+    border: 0px;
+    background:  #002116;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+  
+.wrapper .index .input_field .btn:hover{
+    background: radial-gradient(circle at 10% 20%, rgb(87, 152, 235) 0%, rgb(133, 222, 213) 67%);;
+}
+  
+.wrapper .index .input_field:last-child{
+    margin-bottom: 0;
+}
+
+.btn{
+    width: 100%;
+     padding: 8px 10px;
+    font-size: 15px; 
+    border: 0px;
+    background:  #002116;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+.logout{
+    width: 5%;
+    margin-top: 1%;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.btn:hover{
+    background: radial-gradient(circle at 10% 20%, rgb(87, 152, 235) 0%, rgb(133, 222, 213) 67%);;
+}

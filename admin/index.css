@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background: #fc9f28;
+  padding: 0 10px;
+}
+.wrapper{
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: 10px 10px 20px black;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.wrapper .title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #4f4581;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapper .form{
+  width: 100%;
+}
+
+.wrapper .form .input_field{
+  margin-bottom: 15px;
+  display: grid;
+  align-items: center;
+}
+
+.wrapper .form .input_field label{
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+   font-size: 16px;
+ }
+
+ .wrapper .form .input_field .input{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .form .input_field .input:focus{
+  border: 1px solid #4f4581;
+}
+
+.wrapper .form .input_field .btn{
+    width: 100%;
+     padding: 8px 10px;
+    font-size: 15px; 
+    border: 0px;
+    background:  #4f4581;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+  
+.wrapper .form .input_field .btn:hover{
+    background: #fc9f28;
+}
+  
+.wrapper .form .input_field:last-child{
+    margin-bottom: 0;
+}
+
+

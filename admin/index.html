@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Admin Login Page
+        </title>
+        <link rel="stylesheet" href="index.css" >
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            
+            <div class="form">
+                <h1 class="title">
+                    Admin Login
+                </h1>
+
+                <form id="login-form" method="post" action="login_authenticate.php">
+                    <div class="input_field">
+
+                        <label for="id">ID</label>
+                        <input class="input" type="text" id="id" name="id" required>
+
+                    </div>
+
+                    <div class="input_field">
+                        <label for="password">Password</label>
+                        <input class="input" type="password" id="password" name="password" required>
+                    </div>
+
+                    
+                    <div class="input_field">
+                        <button type="submit" class="btn">Login</button>
+                    </div>
+                    
+
+                </form>
+            </div>
+
+
+        </div>
+
+    </body>
+</html>
