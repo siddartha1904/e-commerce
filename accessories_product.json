@@ -1,0 +1,78 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "HRX Men shoe",
+            "price": 1334,
+            "image": "./images/shoes/shoe_product1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "PUMA Black shoe men",
+            "price": 1950,
+            "image": "./images/shoes/shoe_product2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Adidas Men shoe",
+            "price": 2750,
+            "image": "./images/shoes/shoe_product3.jpg"
+        },
+        {
+            "id": 4,
+            "title": "HRX White Shoe Men",
+            "price": 2999,
+            "image": "./images/shoes/shoe_product4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Skechers Shoe for Men",
+            "price": 2550,
+            "image": "./images/shoes/shoe_product5.jpg"
+
+        },
+        {
+            "id": 6,
+            "title": "Skechers Ultra Groove",
+            "price": 5850,
+            "image": "./images/shoes/shoe_product6.jpg"
+
+        },
+        {
+            "id": 7,
+            "title": "UCB Men Shoe",
+            "price": 3600,
+            "image": "./images/shoes/shoe_product7.jpg"
+        },
+        {
+            "id": 8,
+            "title": "HRX White Sneakers",
+            "price": 3350,
+            "image": "./images/shoes/shoe_product8.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Wanker Shoe for Men",
+            "price": 1799,
+            "image": "./images/shoes/shoe_product9.jpg"
+        },
+        {
+            "id": 10,
+            "title": "US Polo Red Sneakers",
+            "price": 1550,
+            "image": "./images/shoes/shoe_product10.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Arrow Loafers For Men",
+            "price": 3650,
+            "image": "./images/shoes/shoe_product11.JPG"
+        },
+        {
+            "id": 12,
+            "title": "Wrogn Loafers For Men",
+            "price": 3650,
+            "image": "./images/shoes/shoe_product12.JPG"   
+        }
+    ]
+}

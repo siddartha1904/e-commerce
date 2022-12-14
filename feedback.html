@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="feedback.css" />
+  <title>Shopping Cart Project</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__center container">
+      <div class="nav__logo">
+        <h1>V<span>Shop</span></h1>
+      </div>
+
+      <ul class="nav__list">
+        <li><a href="categories.html">Home</a></li>
+        <li><a href="myorders.php">My Orders</a></li>
+        <li><a href="update_customer_information.html">Update Details</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <a href="index.html" class="login">Logout</a>
+        <div class="cart__icon">
+          <h2>cart</h2>
+          <span class="item__total">0</span>
+        </div>
+      </ul>
+
+      <div class="hamburger">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-menu"></use>
+        </svg>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation -->
+
+
+  
+  <div class="cont">
+  <div class="container2">
+    <div class="text">Send Us Your Feedback</div>
+    <form action="feedback.php" method='post' name="myform">
+       <div class="form-row">
+          <div class="input-data">
+             <input type="text" name="firstname" required>
+             <div class="underline"></div>
+             <label for="">First Name</label>
+          </div>
+          <div class="input-data">
+             <input type="text" name="lastname" required>
+             <div class="underline"></div>
+             <label for="">Last Name</label>
+          </div>
+       </div>
+       <div class="form-row">
+          <div class="input-data">
+             <input type="text" name="email" required>
+             <div class="underline"></div>
+             <label for="">Email Address</label>
+          </div>
+          <div class="input-data">
+             <input type="text" name="city" required>
+             <div class="underline"></div>
+             <label for="">City</label>
+          </div>
+       </div>
+       <div class="form-row">
+          <div class="input-data textarea">
+             <textarea rows="8" cols="80" name="message" required></textarea>
+             <br />
+             <div class="underline"></div>
+             <label for="">Write your message</label>
+             <br />
+             <div class="form-row submit-btn">
+                <div class="input-data">
+                   <div class="inner"></div>
+                   <input type="submit" value="submit">
+                </div>
+             </div>
+          </div>
+       </div>
+    </form>
+ </div>
+</div>
+  
+  
+    
+
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>

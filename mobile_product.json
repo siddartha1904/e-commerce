@@ -1,0 +1,78 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Samsung Galaxy Flip",
+            "price": 84999,
+            "image": "./images/mobiles/phone_product1.jpeg"
+        },
+        {
+            "id": 2,
+            "title": "Samsung Galaxy M52",
+            "price": 15999,
+            "image": "./images/mobiles/phone_product2.jpeg"
+        },
+        {
+            "id": 3,
+            "title": "samsung Galaxy M51",
+            "price": 15999,
+            "image": "./images/mobiles/phone_product3.jpeg"
+        },
+        {
+            "id": 4,
+            "title": "Redmi Y1",
+            "price": 10999,
+            "image": "./images/mobiles/phone_product4.jpeg"
+        },
+        {
+            "id": 5,
+            "title": "Redmi Note 5",
+            "price": 12999,
+            "image": "./images/mobiles/phone_product5.jpeg"
+
+        },
+        {
+            "id": 6,
+            "title": "Redmi V12",
+            "price": 54999,
+            "image": "./images/mobiles/phone_product6.jpeg"
+
+        },
+        {
+            "id": 7,
+            "title": "Xiaomi 11 lite",
+            "price": 20999,
+            "image": "./images/mobiles/phone_product7.jpeg"
+        },
+        {
+            "id": 8,
+            "title": "Redmi Y2",
+            "price": 12999,
+            "image": "./images/mobiles/phone_product8.jpeg"
+        },
+        {
+            "id": 9,
+            "title": "OPPO A53s",
+            "price": 15999,
+            "image": "./images/mobiles/phone_product9.jpeg"
+        },
+        {
+            "id": 10,
+            "title": "OPPO F11 Pro",
+            "price": 14999,
+            "image": "./images/mobiles/phone_product10.jpeg"
+        },
+        {
+            "id": 11,
+            "title": "Vivo Y33 s",
+            "price": 20999,
+            "image": "./images/mobiles/phone_product11.jpeg"
+        },
+        {
+            "id": 12,
+            "title": "Vivo V55",
+            "price": 21999,
+            "image": "./images/mobiles/phone_product12.jpeg"
+        }
+    ]
+}

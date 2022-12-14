@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- StyleSheet -->
+  <title>
+    Update Customer Information
+</title>
+<link rel="stylesheet" href="update_customer_information.css" >
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<script>
+    
+    function validate(){
+        
+        
+        var password = document.forms["myform"]["password"].value;
+        
+        var phoneno = document.forms["myform"]["phoneno"].value;
+        var Email = document.forms["myform"]["email"].value;
+        var username = document.forms["myform"]["username"].value;
+
+        if (username == "" || username == null){
+            swal("Enter a Your Username");
+            return false;
+        }else if (phoneno == "" || phoneno == null || isNaN(phoneno) || phoneno.length > 10 || phoneno.length < 10 ){
+            swal("Invalid Contact number!", "Enter a valid phone Number", "warning");
+            
+            return false;
+        }
+        else if (Email == "" || Email == null){
+            swal("Enter a valid Email address");
+            return false;
+        }
+        else if (password.length < 8 || password.search(/[a-z]/i) < 0 ||password.search(/[0-9]/) < 0){
+            swal("Invalid Password Type!", "Your password must be at least 8 characters,\n contain at least one letter and\n contain at least one digit.", "warning");
+           
+            return false;
+        }
+        
+    }
+</script>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__center container">
+      <div class="nav__logo">
+        <h1>V<span>Shop</span></h1>
+      </div>
+
+      <ul class="nav__list">
+        <li><a href="categories.html">Home</a></li>
+        <li><a href="myorders.php">My Orders</a></li>
+        <li><a href="update_customer_information.html">Update Details</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <a href="index.html" class="login">Logout</a>
+        <div class="cart__icon">
+          <h2>cart</h2>
+          <span class="item__total">0</span>
+        </div>
+      </ul>
+
+      <div class="hamburger">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-menu"></use>
+        </svg>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation -->
+
+  <!-- Products -->
+  
+  
+  <div class="wrapper">
+
+            
+    <div class="form">
+        <h1 class="title">
+            Update Customer Information
+        </h1>
+
+        <form  class="validation" name="myform" onsubmit="return validate()" method='POST' action="update_customer_information2.php">
+            
+            <div class="input_field">
+                <label for="username">Enter your username : </label>
+                <input class="input" type="text" id="username" name="username" >
+            </div>
+
+
+            <div class="input_field">
+                <label for="phoneno">Enter new Phone Number : </label>
+                <input class="input" type="text" id="phoneno" name="phoneno" >
+            </div>
+
+            <div class="input_field">
+                <label for="email">Enter new Email : </label>
+                <input class="input" type="email" id="email" name="email" >
+            </div>
+
+            
+
+            <div class="input_field">
+                <label for="password">Enter new Password : </label>
+                <input class="input" type="password" id="password" name="password" >
+            </div>
+
+        
+
+            <div class="input_field">
+                <button type="submit" class="btn">Update</button>
+            </div>
+            
+
+            
+
+        </form>
+    </div>
+
+
+</div>
+
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>

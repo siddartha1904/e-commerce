@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="categories.css" />
+  <title>Shopping Cart Project</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__center container">
+      <div class="nav__logo">
+        <h1>V<span>Shop</span></h1>
+      </div>
+
+      <ul class="nav__list">
+        <li><a href="categories.html">Home</a></li>
+        <li><a href="myorders.php">My Orders</a></li>
+        <li><a href="update_customer_information.html">Update Details</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <a href="index.html" class="login">Logout</a>
+        <div class="cart__icon">
+          <h2>cart</h2>
+          <span class="item__total">0</span>
+        </div>
+      </ul>
+
+      <div class="hamburger">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-menu"></use>
+        </svg>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation -->
+
+  <!-- Products -->
+  
+  
+  <div class="content">
+      
+    <div class="card">
+        <img src="images/bag.png" alt="Foods" style="width:50%">
+        <p><a href="cloth_products.php" ><button style="margin-top: 36px;">Visit store</button></a></p>
+      </div>
+      <div class="card">
+        <img  src="images/laptop.png" alt="Foods" style="width:50%">
+       
+        <p><a href="laptop_products.php"><button style="margin-top: 36px;">Visit store</button></a></p>
+  </div>
+  <div class="card">
+    <img src="images/sneakers.png" alt="Foods" style="width:50%;">
+    
+    <p><a href="shoe_products.php"><button style="margin-top: 36px;">Visit store</button></a></p>
+</div> 
+<div class="card">
+    <img src="images/mobile.png" alt="Foods" style="width:50%">
+    
+    <p><a href="mobile_products.php"><button style="margin-top: 36px;">Visit store</button></a></p>
+</div> 
+    </div>
+    
+
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>

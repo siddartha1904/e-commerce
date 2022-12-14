@@ -1,0 +1,78 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Lenovo Idea Pad",
+            "price": 133334,
+            "image": "./images/laptops/lap_product1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Lenovo Legion",
+            "price": 701950,
+            "image": "./images/laptops/lap_product2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Lenovo IdeaPad Slim 5 11th Gen",
+            "price": 52750,
+            "image": "./images/laptops/lap_product3.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Lenovo Ideapad Gaming 3 11th Gen ",
+            "price": 72999,
+            "image": "./images/laptops/lap_product4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Lenovo IdeaPad Slim 3 11th Gen Intel Core i3",
+            "price": 42550,
+            "image": "./images/laptops/lap_product5.jpg"
+
+        },
+        {
+            "id": 6,
+            "title": "Lenovo Yoga 7 11th Gen Intel",
+            "price": 85850,
+            "image": "./images/laptops/lap_product6.jpg"
+
+        },
+        {
+            "id": 7,
+            "title": "Lenovo IdeaPad Flex 5 11th",
+            "price": 83600,
+            "image": "./images/laptops/lap_product7.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Lenovo IdeaPad Slim 3 2021",
+            "price": 113350,
+            "image": "./images/laptops/lap_product8.jpg"
+        },
+        {
+            "id": 9,
+            "title": "(Renewed) Lenovo IdeaPad",
+            "price": 41799,
+            "image": "./images/laptops/lap_product9.jpg"
+        },
+        {
+            "id": 10,
+            "title": "HP Chromebook 14-inch",
+            "price": 39550,
+            "image": "./images/laptops/lap_product10.jpg"
+        },
+        {
+            "id": 11,
+            "title": "ASUS VivoBook 15 Intel",
+            "price": 63650,
+            "image": "./images/laptops/lap_product11.jpg"
+        },
+        {
+            "id": 12,
+            "title": "ASUS VivoBook 13 Intel",
+            "price": 93650,
+            "image": "./images/laptops/lap_product12.jpg"   
+        }
+    ]
+}

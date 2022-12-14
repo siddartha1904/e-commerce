@@ -1,0 +1,78 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Blue Floral Print",
+            "price": 999,
+            "image": "./images/cloths/cloth_product1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Navy Blue Floral Printed",
+            "price": 999,
+            "image": "./images/cloths/cloth_product2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "White Casual Shirt",
+            "price": 999,
+            "image": "./images/cloths/cloth_product3.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Grey Printed",
+            "price": 999,
+            "image": "./images/cloths/cloth_product4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Light Blue Casual",
+            "price": 999,
+            "image": "./images/cloths/cloth_product5.jpg"
+
+        },
+        {
+            "id": 6,
+            "title": "Printed",
+            "price": 999,
+            "image": "./images/cloths/cloth_product6.jpg"
+
+        },
+        {
+            "id": 7,
+            "title": "Lavender Casual Shirt",
+            "price": 999,
+            "image": "./images/cloths/cloth_product7.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Brown Small Checkered",
+            "price": 999,
+            "image": "./images/cloths/cloth_product8.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Black Printed",
+            "price": 999,
+            "image": "./images/cloths/cloth_product9.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Green Casual Shirt",
+            "price": 999,
+            "image": "./images/cloths/cloth_product10.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Blue Casual Shirt",
+            "price": 999,
+            "image": "./images/cloths/cloth_product11.jpg"
+        },
+        {
+            "id": 12,
+            "title": "Green printed",
+            "price": 999,
+            "image": "./images/cloths/cloth_product12.jpg"
+        }
+    ]
+}
